@@ -6,6 +6,40 @@
     <title>Forms and input</title>
 </head>
 <body>
-    
+    <h1>Form to apply for sigma web development TA</h1>
+    <form action="post">
+        <div>
+        <h3><label for="username">Enter your username : </label>
+        <input type="text" id="username" name="username" placeholder="Enter your username"> </h3>
+    </div>
+    <div>
+        <h3><label for="gender">Select your gender : </label>
+        <input type="radio" id="male" name="male"> 
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="Female"> 
+        <label for="Female">Female</label>
+    </h3>
+    </div>
+    <div>
+        <h3><label for="facility">Choose if you need extra facility : </label>
+        <input type="checkbox" id="facility" name="facility"> 
+        <label for="facility">Yes needed</label>
+        <input type="checkbox" id="facility" name="facility"> 
+        <label for="facility">Not needed</label>
+    </h3>
+    </div>
+    <div><h3>
+        <label for="Comments">Enter your comments here : </label><br>
+        <textarea name="Comments" id="Comments" cols="30" rows="10"></textarea>
+    </h3>
+    </div>
+    <div>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="orange">orange</option>
+        </select>
+    </div>
+    </form>
 </body>
 </html>
