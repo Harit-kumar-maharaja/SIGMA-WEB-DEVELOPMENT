@@ -1,0 +1,67 @@
+<!-- INLINE STYLE > ID SELECTOR > CLASS OR ATTRIBUTE SELECTOR > ELEMENT SELECTOR > UNIVERSAL SELECTOR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascading</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+        .c1{
+            padding: 20px;
+            margin: 20px;
+            background-color: teal;
+            color: chartreuse;
+            height: 100px;
+            text-decoration:underline;
+            text-transform: capitalize;
+            font-family: 'Baloo Bhaijaan 2', sans-serif;
+            word-spacing: 5px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-decoration-thickness: 5px;
+            text-decoration-style:dashed;
+            text-decoration-color:darkorange    ;
+        }
+        [data-x=a]{
+            font-family: 'Baloo Bhaijaan 2', sans-serif;
+            word-spacing: 5px;
+            word-spacing: 5px;
+            text-align: center;
+            height: 100px;
+            color:yellow;
+            background-color:maroon;
+            padding: 20px;
+            margin: 20px;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-style: dotted;
+            text-decoration-color: blueviolet;
+        }
+        [data-x=b]{
+            font-family: 'Baloo Bhaijaan 2', sans-serif;
+            word-spacing: 5px;
+            word-spacing: 5px;
+            text-align: center;
+            height: 100px;
+            color:darkorange;
+            background-color:darkorchid;
+            padding: 20px;
+            margin: 20px;
+            text-decoration: underline;
+            text-decoration-thickness: 5px;
+            text-decoration-style: dotted;
+            text-decoration-color:lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="spec">
+        <h1 class="c1"> Hii this document describes full description of css specificity and cascading </h1><br>
+        <h1 class="c2" data-x="a">CSS SPECIFICITY</h1>
+        <h2 class="c3" data-x="b">This is data - x selector type </h2>
+        
+    </div>
+</body>
+</html>
