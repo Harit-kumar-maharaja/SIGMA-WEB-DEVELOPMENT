@@ -1,0 +1,47 @@
+<!-- Padding is not applicable to the top if the element is inline -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <STYLE>
+        .head1{
+            background-color: lightcoral;
+            color: darkslategray;
+            height: 100px;
+            border: 3px solid black;
+            margin: 40px;
+            padding: 30px;
+        }
+        .box{
+            border: 2px solid blue;
+            display: inline;
+            padding: 25px;
+            margin: 25px;
+            display: block;
+        }
+        .span{
+            border: 2px solid red;
+            padding: 25px;
+            margin: 25px;
+            /* display: block; */ 
+        }
+        .span2{
+            border: 2px solid darkkhaki;
+            padding: 25px;
+            margin: 25px;
+        }
+
+    </STYLE>
+</head>
+<body>
+    <h1 class="head1">THIS DOCUMENT EXPLAINS ALL THE CSS DISPLAY PROPERTY </h1>
+    <div class="box">
+        I am a box
+    </div>
+    <span class="span">This is used for display </span>
+    <span class="span2">property</span>
+</body>
+</html>`
