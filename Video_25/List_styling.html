@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List styling in CSS</title>
+    <style>
+    .box1{
+          background-color: lightseagreen;  
+          color: darkred;
+          margin: 50px;
+          padding: 30px;
+          text-align: center;
+          box-shadow: 2px 5px 2px red;
+          outline: 2px solid red;
+          outline-offset: 10px;
+        border-radius: 20px;
+        text-shadow: 2px 2px 4px rgb(238, 66, 238);    
+    }
+
+    nav ul li{
+        display: flex;
+        /* list-style: devanagri; */
+        background-color: yellow;
+        list-style-position: inside;
+        border:2px solid black;
+        /* margin: 10px;*/ 
+        /* list-style-type: "";  */
+        /* list-style-image: url(download.jpeg); */
+        list-style: disc;
+        list-style: none;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="nav2">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <h1 class="box1">This document contains all LIST Styling tags</h1>
+</body>
+</html>
