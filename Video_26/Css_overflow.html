@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OVERFLOW</title>
+    <style>
+        .box1{
+            margin: 10px;
+            padding: 10px;
+            background-color: yellow;
+            color: tomato;
+            font-size: 3em;
+            border: 2px solid red;
+        }
+        .box2{
+            width: 30vw;
+            height: 30vh;
+            padding: 10px;
+            margin: 10px;
+            background-color: cyan;
+            font-size: x-large;
+            border: 2px solid black;
+            overflow:auto;
+            white-space: nowrap;
+        }
+        .box3{
+            width: 30vw;
+            height: 30vh;
+            padding: 10px;
+            margin: 10px;
+            background-color: cyan;
+            font-size: x-large;
+            border: 2px solid black;
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="box1">This document involves All the CSS Overflow properties</h1>
+    <br><br>
+    <p class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque nihil consectetur rem ad debitis expedita natus commodi. Aliquid error provident in recusandae inventore poribus incidunt provident beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi mollitia perferendis consectetur nisi, adipisci architecto ipsa blanditiis sequi, iusto aspernatur odio qui sapiente quidem fuga in temporibus maxime impedit? lorem50</p>
+    <p class="box3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, sunt quisquam hic fuga iure quidem excepturi sint ea magnam nulla harum ducimus. Tempora expedita error ipsum dignissimos dolores perferendis hic quod ducimus quo, aperiam officiis explicabo dicta iure, maiores ratione quis rem? Qui nostrum cupiditate voluptatibus nobis. Debitis exercitationem excepturi blanditiis? Explicabo repellat iusto excepturi necessitatibus veniam voluptates totam dolor, maiores iure eligendi vel tempore aperiam fugiat quisquam nihil blanditiis aliquam neque, unde et eveniet beatae doloremque. Unde, blanditiis rem!</p>
+</body>
+</html>
