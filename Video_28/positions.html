@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITION PROPERTY</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    .head1{
+        background-color:darkslategray;
+        color: tomato;
+        text-align: center;
+        border: 5px solid red;
+        margin: 10px;
+        padding: 10px;
+    }
+    .box1{
+        position: relative;
+        z-index: 1;
+        background-color:aqua ;
+    }
+    .box2{
+        position: relative;
+        top: -40px;
+        left: 30px;
+        background-color:bisque ;
+    }
+    .box3{
+        background-color:violet ;
+    }
+    .box4{
+        background-color:thistle ;
+        position: absolute;
+        left: 10px;
+        top:0px;
+        z-index: 1;
+    }
+    .box{
+        height: 133px;
+        width: 80vw;
+        padding: 3px;
+        margin: 3px;border: 2px solid black;
+    }
+    .parent{
+        background-color: beige;
+        border: 5px solid darkviolet;
+        margin: 40px;
+        padding: 34px;
+        position: absolute;
+    }
+
+</style>
+</head>
+<body>
+    <h1 class="head1">This Document Contains all CSS Position Property</h1>
+    <div class="parent">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    </div>
+</body>
+</html>

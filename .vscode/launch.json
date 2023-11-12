@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/soni/Desktop/nm/SIGMA-WEB-DEVELOPMENT/Video_8",
-      "program": "c:/Users/soni/Desktop/nm/SIGMA-WEB-DEVELOPMENT/Video_8/build/Debug/outDebug",
+      "cwd": "c:/Users/soni/Desktop/nm/SIGMA-WEB-DEVELOPMENT/Video_27",
+      "program": "c:/Users/soni/Desktop/nm/SIGMA-WEB-DEVELOPMENT/Video_27/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
