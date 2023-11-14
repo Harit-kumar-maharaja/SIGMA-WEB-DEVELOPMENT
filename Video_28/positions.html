@@ -18,28 +18,37 @@
         padding: 10px;
     }
     .box1{
+        height: 400px;
         position: relative;
         z-index: 1;
         background-color:aqua ;
     }
     .box2{
-        position: relative;
-        top: -40px;
+        position: sticky;
+        top: 0px;
+        height: 111px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
         left: 30px;
         background-color:bisque ;
     }
     .box3{
+        position: fixed;
+        left: 4vw;
+        bottom: 0px;
+
         background-color:violet ;
     }
     .box4{
         background-color:thistle ;
-        position: absolute;
+        position: fixed;
         left: 10px;
         top:0px;
-        z-index: 1;
+        /* z-index: 1; */
     }
     .box{
-        height: 133px;
+        height: 233px;
         width: 80vw;
         padding: 3px;
         margin: 3px;border: 2px solid black;
@@ -49,7 +58,12 @@
         border: 5px solid darkviolet;
         margin: 40px;
         padding: 34px;
-        position: absolute;
+        /* position: relative; */
+        /* transform: translate(0); */
+        /* filter:invert(0); */
+        perspective: 0em;
+        /* ALL ABOVE FOUR HAVE SAME FUNCTIONING */
+        /* TRANSFORM , FILTER AND PERSPECTIVE PROPERTY ARE ALSO POSITION PROPERTY TO MAKE ELEMENT AS POSITIONED  */
     }
 
 </style>
@@ -61,6 +75,7 @@
     <div class="box box2"></div>
     <div class="box box3"></div>
     <div class="box box4"></div>
+    <div class="box box5"></div>
     </div>
 </body>
 </html>
