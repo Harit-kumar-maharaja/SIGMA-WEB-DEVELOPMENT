@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+
+        :root{
+            --primary-color:rgb(100, 147, 242);
+            --text-color:rgb(176, 202, 73);
+            --secindry-color:rgb(10, 11, 122);
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: var(--primary-color);
+        }
+        .navbar{
+            background-color: var(--secindry-color);
+            color: var(--text-color);
+            padding: 12px 0px;
+            font-weight: bolder;
+        }
+        span{
+            padding: 10px;
+        }
+        a{
+            color: chartreuse;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span><a href="/">HOME</a></span>
+        <span><a href="/">LINKS</a></span>
+        <span><a href="/">EXTRAS</a></span>
+        <span><a href="/">ABOUT</a></span>
+    </div>
+</body>
+</html>
