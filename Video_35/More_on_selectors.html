@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORE ON SELECTORS</title>
+    <style>
+        .boxes *{
+            border: 2px solid black;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        
+        /* .box:first-child{
+            background-color: yellowgreen;
+        }
+        
+        
+        .box:nth-child(2)::first-line{
+            background-color: aqua;
+        }
+
+
+        .box:nth-child(3)::first-line{
+            /* background-color: aqua; */
+            /* color: blueviolet; */
+        /* } */
+
+
+        /* p ,a, .box,[data-color="primary"]{
+            padding-top :45px;
+        } */ 
+
+
+        .box:nth-child(odd){
+            background-color: violet;
+        }
+
+
+        .box:nth-child(even){
+            background-color: chartreuse;
+        } 
+
+        .box:nth-last-child(1){
+            background-color: darksalmon;
+        }
+
+        /* **************************************** */
+        .boxes::before{
+            margin: 10px;
+            content:"Harit is good";
+            background-color: springgreen;
+            border: 3px solid black;
+        }
+
+        .boxes::after{
+            margin: 10px;
+            content:"Sigma course op";
+            background-color: springgreen;
+            border: 3px solid black;
+        }
+
+        /* **************************************** */
+        ::selection{
+            color:blue;
+            background-color: thistle;
+        }
+
+        .box::first-letter{
+            font-size: xx-large;
+            color: darkslategray;
+        }
+
+        input::placeholder{
+            color:tomato;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+    <div class="box" data-color="primary">Hey i am a box</div>
+    <div class="box">Hey i am a box Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus vel dicta aliquid provident quod. Perferendis ut us amet alias animi vel sunt harum!</div>
+    <div class="box">Hey i am a box Lorem ue consequatur sit quasssitatibus tempora eius, laboriosam, dignissimos autem nesciunt debitis maxime nihil distinctio fuga earum, possimus rem reiciendis itaque.</div>
+    <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+</html>
